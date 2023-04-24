@@ -1,0 +1,171 @@
+.whole{
+  padding-top: 10px;
+}
+.second-row{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.info{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.Updates{
+  width: 85%;
+  background: white;
+  border-radius: 0.7rem;
+  padding-left: 10px;
+  padding: 1rem;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+}
+
+.update{
+  display: flex;
+  gap: 0.5rem;
+}
+
+.update>img{
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.noti>div>span:nth-of-type(1){
+  font-weight: bold;
+}
+
+.Cards {
+    display: flex;
+    gap: 10px;
+    width: 150px;
+    height: 300px;
+  }
+  .parentContainer{
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .Cards{
+      flex-direction: column;
+      width: 200px;
+    }
+    .parentContainer{
+      height: 0rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px)
+  {
+    .Cards{
+      width: 100%;
+    }
+  }
+
+.first-row{
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  
+}
+
+.graph{
+  margin-left: 350px;
+  /* padding-left: 60px; */
+  height: 300px;
+  width: 500px;
+  border: solid;
+}
+
+.project-list-table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+}
+
+.project-list-buttons {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.project-list-buttons button {
+  margin-right: 1rem;
+  padding: 0.5rem;
+  border: none;
+  background-color: #f2f2f2;
+  color: #333;
+  font-size: 0.7rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.project-list-buttons button.active {
+  background-color: #333;
+  color: #fff;
+}
+
+.project-list {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 600px;
+}
+
+.project-list th,
+.project-list td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.project-list th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+
+.project-list tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.prolist{
+  padding-left: 20px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  height: 80%;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+td.severity-high {
+  color: red;
+  font-weight: bold;
+}
+
+td.severity-medium {
+  color: orange;
+  font-weight: bold;
+}
+
+td.severity-low {
+  color: green;
+}

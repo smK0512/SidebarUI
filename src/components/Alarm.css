@@ -1,0 +1,100 @@
+.create-alert-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 90%;
+  /* margin-left: 20px; */
+  padding-top: 10px;
+}
+
+.create-alert-form h2 {
+  margin-top: 0;
+}
+
+.create-alert-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.create-alert-form input,
+.create-alert-form textarea,
+.create-alert-form select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  resize: vertical;
+}
+
+.create-alert-form select {
+  height: 40px;
+}
+
+.create-alert-form button[type="button"] {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.create-alert-form button[type="button"]:hover {
+  background-color: #3e8e41;
+}
+
+.Accepts{
+  display: flex;
+  flex-direction: row;
+  margin-left: 55px;
+}
+
+.user-alerts-list{
+  margin-right: 20px;
+  padding-left: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+td.severity-high {
+  color: red;
+  font-weight: bold;
+}
+
+td.severity-medium {
+  color: orange;
+  font-weight: bold;
+}
+
+td.severity-low {
+  color: green;
+}
+
+.alert-list{
+  padding-left: 20px;
+}

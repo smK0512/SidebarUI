@@ -1,0 +1,55 @@
+.PLC_Output{
+  /* background-image: url("robot\ \(1\).jpg"); */
+  width: 100%;
+}
+
+.table_output{
+  width: 80%;
+  height: 90%;
+  margin-left: 100px;
+  margin-top: 50px;
+  color: black;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+td.severity-high {
+  color: red;
+  font-weight: bold;
+}
+
+td.severity-medium {
+  color: orange;
+  font-weight: bold;
+}
+
+td.severity-low {
+  color: green;
+}
+
+
+h2{
+  padding-bottom: 5%;
+  align-self: center;
+}
+
+
+

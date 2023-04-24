@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800&display=swap');
+.sidebar__main{
+    width: 20%;
+    background-color: #2F4050;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    /* background-image: url("https://st2.depositphotos.com/3228285/6014/i/600/depositphotos_60148837-stock-photo-industrial-robot.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100% 100vh;
+     */
+    font-family: 'Roboto Slab', serif;
+}
+.sidebar__Logo{
+    width: 40%;
+    align-self: center;
+    margin-top: 10%;
+}
+.sidebar__menu{
+    margin-top: 15%;
+}

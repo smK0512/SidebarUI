@@ -1,0 +1,72 @@
+.complete{
+    background-image: url("robot\ \(1\).jpg");
+}
+.production-count-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .robot-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .robot-name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .robot-status {
+    font-size: 18px;
+    color: green;
+  }
+  
+  .production-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .production-count {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .daily-production-count {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .hourly-production-count {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .parts-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+    margin-top: 50px;
+  }
+  
+  .part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .part img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .caption {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+   
+  }  
